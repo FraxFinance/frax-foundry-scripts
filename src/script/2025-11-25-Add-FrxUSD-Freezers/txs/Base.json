@@ -1,0 +1,53 @@
+{
+  "chainId": 8453,
+  "createdAt": 1764110293000,
+  "meta": {
+    "description": "",
+    "name": "Transactions Batch"
+  },
+  "transactions": [
+    {
+      "data": "0x526606c900000000000000000000000013fe84d36d7a507bb4bdac6dcaf13a10961fc470",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    },
+    {
+      "data": "0x526606c900000000000000000000000017e06ce6914e3969f7bd37d8b2a563890ca1c96e",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    },
+    {
+      "data": "0x526606c90000000000000000000000008d8290d49e88d16d81c6adf6c8774ed88762274a",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    },
+    {
+      "data": "0x526606c9000000000000000000000000cbc616d595d38483e6adc45c7e426f44bf230928",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    },
+    {
+      "data": "0x526606c9000000000000000000000000381e2495e683868f693aa5b1414f712f21d34b40",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    },
+    {
+      "data": "0x526606c90000000000000000000000006e74053a3798e0fc9a9775f7995316b27f21c4d2",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    },
+    {
+      "data": "0x526606c9000000000000000000000000c6ef452b0de9e95ccb153c2a5a7a90154aab3419",
+      "operation": 0,
+      "to": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+      "value": "0"
+    }
+  ],
+  "version": "1.0"
+}
