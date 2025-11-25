@@ -1,9 +1,12 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.19;
 
-import "../BaseTest.t.sol";
+import "frax-std/FraxTest.sol";
+import "src/contracts/Counter.sol";
 
-contract TestIncrement is BaseTest {
+contract TestIncrement is FraxTest {
+    Counter public counter;
+
     function setUp() public {
         setupFunctions.push(defaultSetup);
         setupFunctions.push(anotherSetup);
