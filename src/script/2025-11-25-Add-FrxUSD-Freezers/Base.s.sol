@@ -9,17 +9,18 @@ interface ISafe {
 }
 
 interface IFrxUSD {
+    function owner() external view returns (address);
     function addFreezer(address freezer) external;
 }
 
 // forge script src/script/2025-11-25-Add-FrxUSD-Freezers/Base.s.sol --rpc-url https://mainnet.base.org
 contract AddFrxUsdFreezers is BaseScript {
-    address public msig = 0xCBfd4Ef00a8cf91Fd1e1Fe97dC05910772c15E53;
     address public frxUsd = 0xe5020A6d073a794B6E7f05678707dE47986Fb0b6;
 
     SafeTx[] internal txs;
 
     function run() public {
+        address msig = IFrxUSD(frxUsd).owner();
         address[] memory owners = ISafe(msig).getOwners();
 
         for (uint256 i = 0; i < owners.length; i++) {
